@@ -12,6 +12,7 @@ Tools wrote with node.js and use MongoDB
 * Install MondoDB (http://www.mongodb.org/downloads)
 * Clone this repo (git clone https://github.com/vanchester/rss2email)
 * Run "npm install" command in console to download extensions that script needed
+* Enter in sender.js requisites from your mail server which will be used to send emails (I know it's not good and will be fixed it later)
 * Add "node /path/to/rss2email/spider.js" to cron
 * Add "node /path/to/rss2email/sender.js" to cron
 
